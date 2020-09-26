@@ -80,5 +80,6 @@ def is_not_full(string):
       return len(string)>0 and(string.strip()[-1] == ':' or
                 string[0] == '\t' or
                 (len(string)>=4 and string[:4] == '    '))
+
 if __name__ == '__main__':
       console_mode()
